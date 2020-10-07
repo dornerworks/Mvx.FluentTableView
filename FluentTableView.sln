@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentTableView", "FluentTableView.csproj", "{85F3CE05-A794-4A48-9CDB-9B9B061CED86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentTableView", "FluentTableView\FluentTableView.csproj", "{85F3CE05-A794-4A48-9CDB-9B9B061CED86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

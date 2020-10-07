@@ -16,10 +16,10 @@ jobs:
     - name: Build
       run: |
         nuget restore
-        msbuild FluentTableView.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
+        msbuild FluentTableView/FluentTableView.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
     - name: Publish FluentTableView
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
-          PROJECT_FILE_PATH: FluentTableView.csproj
+          PROJECT_FILE_PATH: FluentTableView/FluentTableView.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           VERSION_REGEX: ^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$

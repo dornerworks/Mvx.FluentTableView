@@ -15,7 +15,10 @@ public class ExampleCell : FluentTableViewCell
         ContentView.AddSubviews(_label);
         ContentView.SubviewsDoNotTranslateAutoresizingMaskIntoConstraints();
         ContentView.AddConstraints(
-            _label.InsideOf(ContentView));
+            _label.AtLeftOf(ContentView),
+            _label.AtTopOf(ContentView),
+            _label.AtRightOf(ContentView),
+            _label.AtBottomOf(ContentView));
     }
 
     protected override void Bind()

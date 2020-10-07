@@ -1,4 +1,4 @@
-# FluentTableView
+# Mvx.FluentTableView
 Use [Cirrious.FluentLayout](https://github.com/FluentLayout/Cirrious.FluentLayout) with MvvmCross TableViewSource and UITableViewCells.
 
 ```C#

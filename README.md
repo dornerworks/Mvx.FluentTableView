@@ -1,7 +1,7 @@
-# FluentTableView
+# Mvx.FluentTableView
 Use [Cirrious.FluentLayout](https://github.com/FluentLayout/Cirrious.FluentLayout) with MvvmCross TableViewSource and UITableViewCells.
 
-```
+```C#
 public class ExampleCell : FluentTableViewCell
 {
     private readonly UILabel _label = new UILabel();
@@ -15,7 +15,10 @@ public class ExampleCell : FluentTableViewCell
         ContentView.AddSubviews(_label);
         ContentView.SubviewsDoNotTranslateAutoresizingMaskIntoConstraints();
         ContentView.AddConstraints(
-            _label.InsideOf(ContentView));
+            _label.AtLeftOf(ContentView),
+            _label.AtTopOf(ContentView),
+            _label.AtRightOf(ContentView),
+            _label.AtBottomOf(ContentView));
     }
 
     protected override void Bind()
@@ -28,7 +31,7 @@ public class ExampleCell : FluentTableViewCell
 }
 ```
 
-```
+```C#
 var tableView = new UITableView();
 var source = new FluentTableViewSource(tableView, typeof(ExampleCell));
 tableView.Source = source;

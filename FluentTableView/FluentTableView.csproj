@@ -11,15 +11,15 @@
         <OutputType>Library</OutputType>
         <RootNamespace>FluentTableView</RootNamespace>
         <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-        <AssemblyName>FluentTableView</AssemblyName>
+        <AssemblyName>Mvx.FluentTableView</AssemblyName>
         <LangVersion>8</LangVersion>
         <Nullable>enable</Nullable>
         <PackOnBuild>true</PackOnBuild>
         <PackageVersion>1.0.0</PackageVersion>
         <Authors>C. Brandon Butler</Authors>
-        <PackageId>FluentTableView</PackageId>
+        <PackageId>Mvx.FluentTableView</PackageId>
         <Copyright>2020 DornerWorks, Ltd.</Copyright>
-        <PackageLicenseUrl>https://github.com/dornerworks/FluentTableView/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseUrl>https://github.com/dornerworks/FluentTableView/blob/main/LICENSE.md</PackageLicenseUrl>
         <Owners>DornerWorks, Ltd.</Owners>
         <PackageProjectUrl>https://github.com/dornerworks/FluentTableView</PackageProjectUrl>
         <Description>Use Cirrious.FluentLayout with MvvmCross UITableViews.</Description>

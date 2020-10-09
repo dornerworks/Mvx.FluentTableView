@@ -7,7 +7,7 @@ using UIKit;
 
 namespace FluentTableView
 {
-    public class FluentTableViewSource : MvxTableViewSource
+    public class MvxFluentTableViewSource : MvxTableViewSource
     {
         public ICommand? DeleteRowCommand { get; set; }
         
@@ -15,7 +15,7 @@ namespace FluentTableView
 
         private NSString CellIdentifier { get; }
         
-        public FluentTableViewSource(UITableView tableView, Type cellType, string? cellIdentifier = null,  bool registerForCellReuse = true) : base(tableView)
+        public MvxFluentTableViewSource(UITableView tableView, Type cellType, string? cellIdentifier = null,  bool registerForCellReuse = true) : base(tableView)
         {
             // if no cellIdentifier supplied, then use the class name as cellId
             cellIdentifier ??= nameof(cellType);

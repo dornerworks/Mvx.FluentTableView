@@ -4,11 +4,11 @@ using MvvmCross.Platforms.Ios.Binding.Views;
 
 namespace FluentTableView
 {
-    public abstract class FluentTableViewCell : MvxTableViewCell
+    public abstract class MvxFluentTableViewCell : MvxTableViewCell
     {
         private bool _didSetupConstraints;
 
-        protected FluentTableViewCell(IntPtr handle) : base(handle)
+        protected MvxFluentTableViewCell(IntPtr handle) : base(handle)
         {
             this.DelayBind(Bind);
         }

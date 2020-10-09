@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FluentTableView")]
+[assembly: AssemblyTitle("Mvx.FluentTableView")]
 [assembly: AssemblyDescription("Use Cirrious.FluentLayout with MvvmCross UITableViews.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("DornerWorks, Ltd.")]
-[assembly: AssemblyProduct("FluentTableView")]
+[assembly: AssemblyProduct("Mvx.FluentTableView")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

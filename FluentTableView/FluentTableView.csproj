@@ -15,7 +15,7 @@
         <LangVersion>8</LangVersion>
         <Nullable>enable</Nullable>
         <PackOnBuild>true</PackOnBuild>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <Authors>C. Brandon Butler</Authors>
         <PackageId>Mvx.FluentTableView</PackageId>
         <Copyright>2020 DornerWorks, Ltd.</Copyright>

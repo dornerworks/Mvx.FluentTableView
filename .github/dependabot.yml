@@ -6,4 +6,4 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/FluentTableView"
     schedule:
-      interval: "live"
+      interval: "daily"
